@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1504699347 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\administradorfiguras.cpp
+	"AdministradorFiguras.h"
+
+1504700910 c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\administradorfiguras.h
+	"Figura.h"
+	<list>
+
+1504700423 c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\figura.h
+	<iostream>
+
+1446667744 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\main.cpp
+	<iostream>
+
+1504700932 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\figura.cpp
+	"Figura.h"
+

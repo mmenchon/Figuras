@@ -1,11 +1,15 @@
 #include "Figura.h"
 
-Figura::Figura()
+Figura::Figura(std::string tipo)
 {
-    //ctor
+    this->tipo=tipo;
 }
 
 Figura::~Figura()
 {
     //dtor
+}
+string Figura::obtenerTipo() const
+{
+    return tipo;
 }
