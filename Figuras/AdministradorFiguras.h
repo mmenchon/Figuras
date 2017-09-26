@@ -9,12 +9,13 @@ class AdministradorFiguras
     public:
         AdministradorFiguras();
         virtual ~AdministradorFiguras();
-        void agregar(Figura * figura);
+        unsigned int agregar(Figura * figura);
         void eliminar(unsigned int clave);
         Figura* obtener(unsigned int clave) const;
         void procesar() const;
 
     private:
+        unsigned int indiceClave;
         list<Figura *> figuras;
 };
 

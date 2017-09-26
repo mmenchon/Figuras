@@ -6,9 +6,9 @@
 class Rectangulo : public Figura
 {
     public:
-        Rectangulo();
-        virtual ~Rectangulo();
-        double obtenerSuperficie(){return base*altura};
+        Rectangulo(int x, int y, int base, int altura);
+        ~Rectangulo();
+        double obtenerSuperficie() const;
 
     private:
         int x, y, base, altura;

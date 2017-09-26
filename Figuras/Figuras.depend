@@ -1,17 +1,69 @@
 # depslib dependency file v1.0
-1504699347 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\administradorfiguras.cpp
+1504704314 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\administradorfiguras.cpp
 	"AdministradorFiguras.h"
+	<assert.h>
 
-1504700910 c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\administradorfiguras.h
+1504703694 c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\administradorfiguras.h
 	"Figura.h"
 	<list>
 
-1504702411 c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\figura.h
+1504725003 c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\figura.h
 	<iostream>
 
-1446667744 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\main.cpp
+1504707215 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\main.cpp
 	<iostream>
+	"AdministradorFiguras.h"
+	"Figura.h"
+	"Circulo.h"
+	"Rectangulo.h"
 
 1504700932 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\figura.cpp
 	"Figura.h"
+
+1504725866 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\circulo.cpp
+	"Circulo.h"
+	<math.h>
+
+1504725003 c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\circulo.h
+	"Figura.h"
+
+1504725084 c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\rectangulo.h
+	"Figura.h"
+
+1504725084 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos ii\figuras\figuras\rectangulo.cpp
+	"Rectangulo.h"
+
+1504704314 source:c:\users\mariano\documents\mega\mega\analisis y diseño de algoritmos ii\figuras\figuras\administradorfiguras.cpp
+	"AdministradorFiguras.h"
+	<assert.h>
+
+1504703694 c:\users\mariano\documents\mega\mega\analisis y diseño de algoritmos ii\figuras\figuras\administradorfiguras.h
+	"Figura.h"
+	<list>
+
+1504725003 c:\users\mariano\documents\mega\mega\analisis y diseño de algoritmos ii\figuras\figuras\figura.h
+	<iostream>
+
+1504725866 source:c:\users\mariano\documents\mega\mega\analisis y diseño de algoritmos ii\figuras\figuras\circulo.cpp
+	"Circulo.h"
+	<math.h>
+
+1504725003 c:\users\mariano\documents\mega\mega\analisis y diseño de algoritmos ii\figuras\figuras\circulo.h
+	"Figura.h"
+
+1504700932 source:c:\users\mariano\documents\mega\mega\analisis y diseño de algoritmos ii\figuras\figuras\figura.cpp
+	"Figura.h"
+
+1504726156 source:c:\users\mariano\documents\mega\mega\analisis y diseño de algoritmos ii\figuras\figuras\main.cpp
+	<iostream>
+	"AdministradorFiguras.h"
+	"Figura.h"
+	"Circulo.h"
+	"Rectangulo.h"
+
+1504725084 c:\users\mariano\documents\mega\mega\analisis y diseño de algoritmos ii\figuras\figuras\rectangulo.h
+	"Figura.h"
+
+1504725084 source:c:\users\mariano\documents\mega\mega\analisis y diseño de algoritmos ii\figuras\figuras\rectangulo.cpp
+	"Rectangulo.h"
 

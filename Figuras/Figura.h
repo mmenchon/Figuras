@@ -10,7 +10,7 @@ class Figura
         Figura(string tipo);
         virtual ~Figura();
         string obtenerTipo() const;
-        virtual double obtenerSuperficie() const =0;
+        virtual double obtenerSuperficie() const=0;
     private:
         string tipo;
 };

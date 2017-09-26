@@ -23,6 +23,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="AdministradorFiguras.cpp" />
+		<Unit filename="AdministradorFiguras.h" />
+		<Unit filename="Circulo.cpp" />
+		<Unit filename="Circulo.h" />
+		<Unit filename="Figura.cpp" />
+		<Unit filename="Figura.h" />
+		<Unit filename="Rectangulo.cpp" />
+		<Unit filename="Rectangulo.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

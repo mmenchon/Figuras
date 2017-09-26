@@ -5,23 +5,24 @@ using namespace std;
 
 AdministradorFiguras::AdministradorFiguras()
 {
-
+    indiceClave=0;
 }
 
 AdministradorFiguras::~AdministradorFiguras()
 {
     //dtor
 }
-void AdministradorFiguras::agregar(Figura* figura)
+unsigned int AdministradorFiguras::agregar(Figura* figura)
 {
     figuras.push_back(figura);
+    return indiceClave++;
 }
 
 void AdministradorFiguras::eliminar(unsigned int clave)
 {
     assert(figuras.size() < clave);
-    list<Figura*>::iterator it=figuras.begin();
-    int j=0;
+    list<Figura *>::iterator it=figuras.begin();
+    unsigned int j=0;
     while(j<clave){
         it++;
         j++;
@@ -31,9 +32,9 @@ void AdministradorFiguras::eliminar(unsigned int clave)
 
 Figura* AdministradorFiguras::obtener(unsigned int clave) const
 {
-    assert(figuras.size() > clave);
-    list<Figura*>::iterator it=figuras.begin();
-    int j=0;
+    assert(clave < indiceClave);
+    list<Figura *>::const_iterator it=figuras.begin();
+    unsigned int j=0;
     while(j<clave){
         it++;
         j++;
@@ -43,8 +44,9 @@ Figura* AdministradorFiguras::obtener(unsigned int clave) const
 
 void AdministradorFiguras::procesar() const
 {
-    list<Figura*>::iterator it=figuras.begin();
+    list<Figura *>::const_iterator it=figuras.begin();
     while(it!=figuras.end()){
-        cout << it->obtenerSuperficie();<< endl;
+        cout << (*it)->obtenerSuperficie() << endl;
+        it++;
     }
 }
